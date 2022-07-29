@@ -1,0 +1,31 @@
+h1 {
+    text-transform: capitalize;
+}
+
+@keyframes example {
+    from {
+        background-color: rgb(224, 202, 235);
+    }
+
+    to {
+        background-color: rgb(193, 215, 231);
+    }
+}
+
+div {
+    background-color: rgb(224, 202, 235);
+    padding: 60px;
+    margin: 60px;
+    height: 50%;
+    width: 50%;
+    border-radius: 30px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+body {
+    background-image: url("https://www.thebalancecareers.com/thmb/hKctLkuZxqFGd3XpQCUjQBjSPjQ=/3436x2577/smart/filters:no_upscale()/school-books-on-desk--education-concept-871454068-5b548900c9e77c005b04fc8c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
